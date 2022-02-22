@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         pager = findViewById(R.id.pager);
         loadcard();
         Toast.makeText(MainActivity.this, "abc message", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "dfg message", Toast.LENGTH_SHORT).show();
         pager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
